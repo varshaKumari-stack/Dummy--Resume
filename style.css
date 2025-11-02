@@ -1,0 +1,187 @@
+@font-face {
+  font-family: desc;
+  src: url(" Roboto-VariableFont_wdth,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#desc {
+  height: 200px;
+  background-color: rgb(26 36 52);
+  padding: 50px;
+}
+
+#desc h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: desc;
+  color: #fff;
+}
+#desc p {
+  text-align: center;
+  font-weight: 200;
+  font-family: desc;
+  font-size: 18px;
+  color: #f7f4f4;
+}
+
+#about {
+  height: 200px;
+  background-color: #fefefe;
+  width: 1300px;
+  margin: auto;
+  padding: 30px;
+}
+
+#about h2,
+p {
+  color: #000;
+  text-align: center;
+}
+
+#about h2 {
+  text-transform: uppercase;
+  font-family: desc;
+  font-weight: 900;
+  font-size: 24px;
+  padding-bottom: 14px;
+}
+#about p {
+  font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+  color: rgb(98, 96, 96);
+}
+
+#edu {
+  height: 200px;
+  background-color: #daf0ff;
+  width: 1300px;
+  margin: auto;
+  padding: 30px;
+}
+
+#edu h3 {
+  background-color: #fff;
+  padding: 8px;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  font-weight: 100;
+  margin-bottom: 12px;
+}
+#edu h2 {
+  text-transform: uppercase;
+
+  padding-bottom: 14px;
+  text-align: center;
+  font-family: desc;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#skills {
+  height: 300px;
+  background-color: #fef0bf;
+  width: 1300px;
+  margin: auto;
+  padding: 30px;
+}
+
+#skills h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: desc;
+  font-weight: 900;
+  font-size: 20px;
+
+  padding-bottom: 14px;
+}
+#skills h2 {
+  background-color: #fff;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-family: desc;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#project {
+  height: 250px;
+  background-color: #ebe6fe;
+  width: 1300px;
+  margin: auto;
+  padding: 30px;
+}
+
+#project h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: desc;
+  font-weight: 900;
+  font-size: 20px;
+
+  padding-bottom: 14px;
+}
+#project p {
+  background-color: #fff;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-family: desc;
+  font-weight: 400;
+}
+
+#contact {
+  height: 250px;
+  background-color: #d7fce3;
+  width: 1300px;
+  margin: auto;
+  padding: 30px;
+}
+
+#contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: desc;
+  font-weight: 900;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+#contact p {
+  background-color: #fff;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  width: 700px;
+  margin-bottom: 14px;
+  font-size: 16px;
+  font-family: desc;
+  font-weight: 400;
+}
+
+#footer {
+  height: 30px;
+  background-color: #000;
+  padding: 30px;
+}
+#footer p {
+  color: #fff;
+  font-family: desc;
+  font-weight: 100;
+}
